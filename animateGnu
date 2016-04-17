@@ -1,0 +1,4 @@
+splot 'report.txt' index i u 1:2:3 with lines title '#'.i
+i=i + 1
+pause 0.3
+if(i < n) reread;
